@@ -5,7 +5,17 @@ from __future__ import division
 from __future__ import absolute_import
 from __future__ import unicode_literals
 
+import sys
+
+import six
+
+
+if not six.PY2:
+    print("Run Fabfile only under Python 2.x")
+    sys.exit(0)
+
 from fabric.context_managers import settings
+
 from fabric.contrib.console import confirm
 from fabric.decorators import task
 from fabric.operations import local
