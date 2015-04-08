@@ -6,13 +6,24 @@ from __future__ import print_function
 from __future__ import absolute_import
 from __future__ import division
 
+import os
+
 from colorama import init, Fore, Back, Style
 
-init()
 
-# Fore: BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE, RESET.
-# Back: BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE, RESET.
-# Style: DIM, NORMAL, BRIGHT, RESET_ALL
+def run_from_ipython():
+    try:
+        # noinspection PyUnresolvedReferences
+        __IPYTHON__
+        return True
+    except NameError:
+        return False
+
+
+if not run_from_ipython() and os.name == 'nt':
+    # See this issue: https://code.google.com/p/colorama/issues/detail?id=58
+    init()
+
 
 def _print(txt):
     """
@@ -21,6 +32,10 @@ def _print(txt):
     :argument txt: Any text
     :type txt: str or unicode_literals
     """
+
+    # Fore: BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE, RESET.
+    # Back: BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE, RESET.
+    # Style: DIM, NORMAL, BRIGHT, RESET_ALL
     print('{0}{1}'.format(Style.BRIGHT + txt, Fore.RESET + Back.RESET + Style.RESET_ALL))
 
 
