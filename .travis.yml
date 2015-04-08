@@ -6,13 +6,12 @@ python:
   - "3.4"
   - "pypy"
 install:
-    - pip install -q Django==$DJANGO --use-mirrors
-    - if [[ $TRAVIS_PYTHON_VERSION != 3.3 || $TRAVIS_PYTHON_VERSION != 3.4 ]]; then pip install fabric unittest2 --use-mirrors ; fi
-    - pip install colorama --use-mirrors
-    - pip install coveralls --use-mirrors
-    - pip install nose --use-mirrors
-    - pip install future --use-mirrors
-    - pip install six --use-mirrors
+    - if [[ $TRAVIS_PYTHON_VERSION != 3.3 || $TRAVIS_PYTHON_VERSION != 3.4 ]]; then pip install fabric unittest2; fi
+    - pip install colorama
+    - pip install coveralls
+    - pip install nose
+    - pip install future
+    - pip install six
 script:
     - python setup.py build
     - python setup.py sdist
