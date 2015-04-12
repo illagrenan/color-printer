@@ -18,9 +18,9 @@ setup(
     #
     # $ fab build
     # ########################################################################
-    long_description=(open('.tmp/README.rst').read()),
+    long_description=(open('_generated/README.rst').read()),
 
-    url='https://github.com/illagrenan/color_printer',
+    url='https://github.com/illagrenan/color-printer',
     license='MIT',
     author='Vašek Dohnal',
     author_email='vaclav.dohnal@gmail.com',
