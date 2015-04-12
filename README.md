@@ -11,7 +11,7 @@
 **This package is not yet on PyPI.**
 
 ```bash
-pip install --upgrade git+git://github.com/illagrenan/color-printer.git#egg=color_printer
+pip install --upgrade git+git://github.com/illagrenan/color-printer.git#egg=color-printer
 ```
 
 ## Usage ##
