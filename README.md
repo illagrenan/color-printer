@@ -1,10 +1,10 @@
 # Color printer #
 
-[![Travis CI Badge](https://api.travis-ci.org/illagrenan/color_printer.png)](https://travis-ci.org/illagrenan/color_printer)
+[![Travis CI Badge](https://api.travis-ci.org/illagrenan/color-printer.png)](https://travis-ci.org/illagrenan/color-printer)
 &nbsp;
-[![Coverage Status](https://coveralls.io/repos/illagrenan/color_printer/badge.png)](https://coveralls.io/r/illagrenan/color_printer)
+[![Coverage Status](https://coveralls.io/repos/illagrenan/color-printer/badge.png)](https://coveralls.io/r/illagrenan/color-printer)
 &nbsp;
-[![Requirements Status](https://requires.io/github/illagrenan/color_printer/requirements.svg?branch=master)](https://requires.io/github/illagrenan/color_printer/requirements/?branch=master)
+[![Requirements Status](https://requires.io/github/illagrenan/color-printer/requirements.svg?branch=master)](https://requires.io/github/illagrenan/color-printer/requirements/?branch=master)
 
 ## Installation ##
 
