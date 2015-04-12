@@ -19,9 +19,16 @@ pip install --upgrade git+git://github.com/illagrenan/color-printer.git#egg=colo
 ```bash
 from color_printer import colors
 
+# Print black
 colors.black("Foo bar")
+
+# Print red
 colors.red("Foo bar")
+
+# Print green
 colors.green("Foo bar")
+
+# ...
 colors.yellow("Foo bar")
 colors.blue("Foo bar")
 colors.magenta("Foo bar")
