@@ -2,7 +2,7 @@
 
 [![Travis CI Badge](https://api.travis-ci.org/illagrenan/color-printer.png)](https://travis-ci.org/illagrenan/color-printer)
 &nbsp;
-[![Coverage Status](https://coveralls.io/repos/illagrenan/color-printer/badge.png)](https://coveralls.io/r/illagrenan/color-printer)
+[![Coverage Status](https://coveralls.io/repos/illagrenan/color-printer/badge.svg?branch=master)](https://coveralls.io/r/illagrenan/color-printer?branch=master)
 &nbsp;
 [![Requirements Status](https://requires.io/github/illagrenan/color-printer/requirements.svg?branch=master)](https://requires.io/github/illagrenan/color-printer/requirements/?branch=master)
 
